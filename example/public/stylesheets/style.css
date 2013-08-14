@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+	overflow:hidden;
+}
+
+.sticky-element {
+	position: sticky;
+	background-color:blue;
+	color: white;
+	top:80px;
+	bottom: 380px;
+	width: 200px;
+}
+
+.sticky-element.stuck {
+	color:red;
+}
